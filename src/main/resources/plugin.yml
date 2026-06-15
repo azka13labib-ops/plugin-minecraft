@@ -1,0 +1,9 @@
+name: DemoPlugin
+version: '1.0'
+main: com.azka.plugin.App
+api-version: '1.21'
+depend: [Vault, EconomyShopGUI]
+commands:
+  shop:
+    description: Buka menu toko Azka
+    usage: /shop [sell]
